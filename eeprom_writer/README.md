@@ -10,6 +10,7 @@ When running, the sketch can read and write pages, write data from serial input,
 ## Construction
 The design can be easily modified to accomodate any 28-32 pin EEPROM since only the leftmost pins vary. 
 Designs for a 32Kx8 and 128Kx8 EEPROM are attached below, as well as pictures of the finished 32Kx8 writer.
+The data and A8-A15 wires have been omitted from the diagram to not block everything else out. Wires need to be connected from Arduino A0-A7 to EEPROM A8-15 and from Arduino C0-C7 to EEPROM D0-D7.
 
 ## Components
 Stripboard, 26 x 34 holes (Cheap, from Amazon)
